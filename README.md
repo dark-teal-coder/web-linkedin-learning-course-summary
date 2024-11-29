@@ -1,1 +1,1 @@
-# linkedin-learning-course-summary
+# Linkedin Learning Course Summary
