@@ -1,5 +1,7 @@
 # Linkedin Learning Course Summary
 
+Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary/
+
 ## Course List
 
 Here is the list of LinkedIn Learning courses summarized:
