@@ -7,7 +7,7 @@ Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary/
 ## Metadata
 
 - <ins>Project Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
-- <ins>First Published Date</ins>: 2024-11-25
+- <ins>First Published Date</ins>: 2024-11-29
 
 ## Reference
 
