@@ -8,6 +8,12 @@
 - <ins>First Published Date</ins>: 2024-11-29
 - <ins>Website URL</ins>: https://dark-teal-coder.github.io/linkedin-learning-course-summary
 
-## Reference
+## Credits 
+
+### Contributors 
+
+- [@dark-teal-coder](github.com/dark-teal-coder)
+
+### References 
 
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
