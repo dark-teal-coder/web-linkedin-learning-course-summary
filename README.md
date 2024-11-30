@@ -2,12 +2,11 @@
 
 # Linkedin Learning Course Summary
 
-Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary/
-
 ## Metadata
 
 - <ins>Website Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
 - <ins>First Published Date</ins>: 2024-11-29
+- <ins>Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary</ins>
 
 ## Reference
 
