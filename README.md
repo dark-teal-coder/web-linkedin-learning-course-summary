@@ -6,7 +6,7 @@
 
 - <ins>Website Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
 - <ins>First Published Date</ins>: 2024-11-29
-- <ins>Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary</ins>
+- <ins>Website URL</ins>: https://dark-teal-coder.github.io/linkedin-learning-course-summary
 
 ## Reference
 
