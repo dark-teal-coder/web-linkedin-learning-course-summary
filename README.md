@@ -17,3 +17,7 @@
 ### References 
 
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+&nbsp;
+
+*1st Completion Date: Xxx 00, 202x*&emsp;
