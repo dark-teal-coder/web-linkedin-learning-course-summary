@@ -100,3 +100,7 @@ Video: Connecting Others
 1. Can my identity help to connect others?
 2. Can my experience help build connections?
 3. How can my location build connections?
+
+## Reference
+
+- [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
