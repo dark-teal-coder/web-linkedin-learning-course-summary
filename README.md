@@ -8,6 +8,18 @@
 - <ins>First Published Date</ins>: 2024-11-29
 - <ins>Website URL</ins>: https://dark-teal-coder.github.io/linkedin-learning-course-summary
 
+## Project
+
+- **Title**: *Linkedin Learning Course Summary*
+- **Difficulty**:
+  - [x] Beginner
+  - [ ] Intermediate
+  - [ ] Advanced
+- **Scale**:
+  - [x] Small
+  - [ ] Medium
+  - [ ] Big
+
 ## Credits 
 
 ### Contributors 
