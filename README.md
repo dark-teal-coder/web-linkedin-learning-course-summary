@@ -1,3 +1,5 @@
+<!-- README file for GitHub Pages website-->
+
 # Linkedin Learning Course Summary
 
 Website URL: https://dark-teal-coder.github.io/linkedin-learning-course-summary/
