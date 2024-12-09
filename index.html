@@ -774,55 +774,87 @@
     Video: What Is FTP?
     <ul>
         <li>FTP: File Transfer Protocol</li>
-        <li>Sending and receiving or uploading and downloading files across a network</li>
+            <ul>
+                <li>Sending and receiving or uploading and downloading files across a network</li>
+            </ul>
         <li>Many web hosts offer FTP servers for customers to upload and download files</li>
         <li>Many companies host software update files, drivers and the like</li>
         <li>FTP servers for open-source projects are common</li>
         <li>Many Linux distributions have a wide network of FTP sites/mirrors</li>
-        <li>Mirrors contain the same information where installation disc images can be downloaded</li>
+            <ul>
+                <li>Mirrors contain the same information where installation disc images can be downloaded</li>
+            </ul>
         <li>Public FTP access generally discouraged outside a network firewall</li>
         <li>FTP servers: 1) login credentials 2) anonymous access</li>
         <li>FTP security:</li>
-        <li>Credentials as plain text</li>
-        <li>Best practice: unique credentials for access</li>
-        <li>Alternatives include FTP-SSL & SFTP</li>
+            <ul>
+                <li>Credentials as plain text</li>
+                <li>Best practice: unique credentials for access</li>
+                <li>Alternatives include FTP-SSL & SFTP</li>
+            </ul>
         <li>FTP connection URL:</li>
-        <li>Structure: <span class="code">{protocol} + {username} + [:] + {password} + [@] + {hostname/address} + [:] + {port} + [/] + {file path}</span></li>
-        <li>E.g., ftp://mary:abc123@example.com:21/file.zip</li>
-        <li>The credential (username & password) can be omitted but it will be prompted if so</li>
-        <li>FTP usually listens for commands on transmission control protocol (TCP) port 21</li>
-        <li>The client and server will open other ports for data transfer automatically if the firewall allows</li>
-        <li>FTP URL can be viewed in:</li>
-        <li>A browser window, similar to a hyperlink</li>
-        <li>A folder using a client application</li>
+            <ul>
+                <li>Structure: <span class="code">{protocol} + {username} + [:] + {password} + [@] + {hostname/address} + [:] + {port} + [/] + {file path}</span></li>
+                <li>E.g., ftp://mary:abc123@example.com:21/file.zip</li>
+                    <ul>
+                        <li>The credential (username & password) can be omitted but it will be prompted if so</li>
+                        <li>FTP usually listens for commands on transmission control protocol (TCP) port 21</li>
+                        <li>The client and server will open other ports for data transfer automatically if the firewall allows</li>
+                    </ul>
+                <li>FTP URL can be viewed in:</li>
+                    <ul>
+                        <li>A browser window, similar to a hyperlink</li>
+                        <li>A folder using a client application</li>
+                    </ul>
+            </ul>
         <li>FTP modes:</li>
-        <li>Active mode: server sends data to the client in response to a request from the client</li>
-        <li>Passive mode: client requests data</li>
-        <li>Better with network address translation (NAT)</li>
+            <ul>
+                <li>Active mode: server sends data to the client in response to a request from the client</li>
+                <li>Passive mode: client requests data</li>
+                    <ul>
+                        <li>Better with network address translation (NAT)</li>
+                    </ul>
+            </ul>
         <li>Common file transfer modes:</li>
-        <li>Text: file sent as ASCII characters</li>
-        <li>Binary: file sent as byte stream</li>
-        <li>Automatic: mode auto-selected</li>
+            <ul>
+                <li>Text: file sent as ASCII characters</li>
+                <li>Binary: file sent as byte stream</li>
+                <li>Automatic: mode auto-selected</li>
+            </ul>
         <li>Home folder: landing place in the file system after login</li>
-        <li>Able to be shared on a web host</li>
+            <ul>
+                <li>Able to be shared on a web host</li>
+            </ul>
     </ul>
     Video: Connecting to an FTP Server Using Client Software
     <ul>
         <li>To connect to an FTP server:</li>
-        <li>Client software/client</li>
-        <li>E.g., FileZilla</li>
-        <li>Built-in FTP client</li>
-        <li>E.g., web design tools, IDE’s and developer text editors, etc.</li>
-        <li>Browser</li>
-        <li>Operating system itself</li>
+            <ul>
+                <li>Client software/client</li>
+                    <ul>
+                        <li>E.g., FileZilla</li>
+                        <li>Built-in FTP client</li>
+                            <ul>
+                                <li>E.g., web design tools, IDE’s and developer text editors, etc.</li>
+                            </ul>
+                    </ul>
+                <li>Browser</li>
+                <li>Operating system itself</li>
+            </ul>
         <li>FileZilla:</li>
-        <li>Download: https://filezilla-project.org/</li>
-        <li>Site connection information at top: host, username, password & port</li>
-        <li>Site manager: commonly used sites</li>
-        <li>Click [File] > click [Site Manager] > click [New Site] > name a site > enter [Host] > set [Port] as 21 > choose [FTP] for [Protocol] > enter [User] > enter [Password] > click [OK]</li>
-        <li>Transfer files between local site and remote site:</li>
-        <li>Local site on the left: your file system</li>
-        <li>Remote site on the right: home folder on the FTP site</li>
+            <ul>
+                <li>Download: https://filezilla-project.org/</li>
+                <li>Site connection information at top: host, username, password & port</li>
+                <li>Site manager: commonly used sites</li>
+                    <ul>
+                        <li>Click [File] > click [Site Manager] > click [New Site] > name a site > enter [Host] > set [Port] as 21 > choose [FTP] for [Protocol] > enter [User] > enter [Password] > click [OK]</li>
+                    </ul>
+                <li>Transfer files between local site and remote site:</li>
+                    <ul>
+                        <li>Local site on the left: your file system</li>
+                        <li>Remote site on the right: home folder on the FTP site</li>
+                    </ul>
+            </ul>
         <li>[Toggle directory comparison] feature in the toolbar: compare files between local and remote folders</li>
         <li>To disconnect: click [Cancels the current operation] button in the toolbar</li>
     </ul>
@@ -847,66 +879,108 @@
     <ul>
         <li>File manager of a Linux GUI is able to connect to FTP servers</li>
         <li>Gnome environment: click [Files] on menu > choose [Connect to Server] > enter FTP path into [Server Address] > choose [Registered User] > enter credentials > click [Connect]</li>
-        <li>To end: click [Eject] on the network in the sidebar</li>
+            <ul>
+                <li>To end: click [Eject] on the network in the sidebar</li>
+            </ul>
     </ul>
     Video: Connecting to FTP from The Command Line
     <ul>
         <li>Command line application in the terminal window:</li>
-        <li>To log onto FTP: type [ftp] > type [open] + {server’s name} > press [Enter]</li>
-        <li>E.g., open rouxacademy.com</li>
-        <li>Send commands to FTP application when the prompt changes to [ftp>]</li>
-        <li>Enter credentials for authentication</li>
-        <li>To see what is in the directory: type [ls] or [dir]</li>
-        <li>E.g., <span class="code">drwxr-xr-x        1 ldcsites         ldcsites        4096        Apr 25        2012        _css</span></li>
-        <li>Output 1st column:</li>
-        <li>E.g., <span class="code">drwxr-xr-x</span></li>
-        <li>1st character: directory/file</li>
-        <li>[<span class="code">d</span>] for directory</li>
-        <li>[<span class="code">-</span>] for file</li>
-        <li>Next 3 characters: file permissions for the user</li>
-        <li>[<span class="code">r</span>] for read</li>
-        <li>[<span class="code">w</span>] for write</li>
-        <li>[<span class="code">x</span>] for execute</li>
-        <li>Next 3 characters: file permissions for the group</li> 
-        <li>[<span class="code">r</span>] for read</li>
-        <li>[<span class="code">w</span>] for write</li>
-        <li>[<span class="code">x</span>] for execute</li>
-        <li>Next 3 characters: file permissions for everyone</li>
-        <li>[<span class="code">r</span>] for read</li>
-        <li>[<span class="code">w</span>] for write</li>
-        <li>[<span class="code">x</span>] for execute</li>
-        <li>Output 2nd & 3rd columns: user & group for each file</li>
-        <li>E.g., <span class="code">ldcsites        ldcsites</span></li>
-        <li>Output 4th column: size</li>
-        <li>E.g., <span class="code">4096</span></li>
-        <li>Output 5th column: modification date</li>
-        <li>E.g., <span class="code">Apr 25        2012</span></li>
-        <li>Output last column: file name</li>
-        <li>E.g., <span class="code">_css</span></li>
+            <ul>
+                <li>To log onto FTP: type [ftp] > type [open] + {server’s name} > press [Enter]</li>
+                    <ul>
+                        <li>E.g., open rouxacademy.com</li>
+                        <li>Send commands to FTP application when the prompt changes to [ftp>]</li>
+                        <li>Enter credentials for authentication</li>
+                    </ul>
+                <li>To see what is in the directory: type [ls] or [dir]</li>
+                    <ul>
+                        <li>E.g., <span class="code">drwxr-xr-x        1 ldcsites         ldcsites        4096        Apr 25        2012        _css</span></li>
+                    </ul>
+                <li>Output 1st column:</li>
+                    <ul>
+                        <li>E.g., <span class="code">drwxr-xr-x</span></li>
+                        <li>1st character: directory/file</li>
+                            <ul>
+                                <li>[<span class="code">d</span>] for directory</li>
+                                <li>[<span class="code">-</span>] for file</li>
+                            </ul>
+                        <li>Next 3 characters: file permissions for the user</li>
+                            <ul>
+                                <li>[<span class="code">r</span>] for read</li>
+                                <li>[<span class="code">w</span>] for write</li>
+                                <li>[<span class="code">x</span>] for execute</li>
+                            </ul>
+                        <li>Next 3 characters: file permissions for the group</li> 
+                            <ul>
+                                <li>[<span class="code">r</span>] for read</li>
+                                <li>[<span class="code">w</span>] for write</li>
+                                <li>[<span class="code">x</span>] for execute</li>
+                            </ul>
+                        <li>Next 3 characters: file permissions for everyone</li>
+                            <ul>
+                                <li>[<span class="code">r</span>] for read</li>
+                                <li>[<span class="code">w</span>] for write</li>
+                                <li>[<span class="code">x</span>] for execute</li>
+                            </ul>
+                    </ul>
+                <li>Output 2nd & 3rd columns: user & group for each file</li>
+                    <ul>
+                        <li>E.g., <span class="code">ldcsites        ldcsites</span></li>
+                    </ul>
+                <li>Output 4th column: size</li>
+                    <ul>
+                        <li>E.g., <span class="code">4096</span></li>
+                    </ul>
+                <li>Output 5th column: modification date</li>
+                    <ul>
+                        <li>E.g., <span class="code">Apr 25        2012</span></li>
+                    </ul>
+                <li>Output last column: file name</li>
+                    <ul>
+                        <li>E.g., <span class="code">_css</span></li>
+                    </ul>
+            </ul>
         <li>To change directory: type [cd] + {directory name}</li>
-        <li>E.g., <span class="code">cd folder_name</span></li>
+            <ul>
+                <li>E.g., <span class="code">cd folder_name</span></li>
+            </ul>
         <li>To print current working directory: type [pwd]</li>
         <li>To go back a level: type [cd] + [..]</li>
-        <li>i.e., <span class="code">cd ..</span></li>
+            <ul>
+                <li>i.e., <span class="code">cd ..</span></li>
+            </ul>
         <li>To download a file to your working directory: type [get] + {file name}</li>
-        <li>E.g., <span class="code">get index.htm</span></li>
+            <ul>
+                <li>E.g., <span class="code">get index.htm</span></li>
+            </ul>
         <li>To change the local directory: type [lcd] + {path}</li>
         <li>To download multiple files to your working directory: type [mget] + {a list of files/wildcard pattern}</li>
-        <li>E.g., <span class="code">mget *</span></li>
+            <ul>
+                <li>E.g., <span class="code">mget *</span></li>
+            </ul>
         <li>Choose which file to download one by one or use [prompt] command to toggle the interactive mode off to get all the files at once</li>
         <li>Unable to download folders</li>
         <li>To jump out of the FTP command line: type [!]</li>
         <li>To go back to FTP: type [exit]</li>
         <li>To delete a file on the server: type [delete] + {file path}</li>
-        <li>E.g., <span class="code">delete index.htm</span></li>
+            <ul>
+                <li>E.g., <span class="code">delete index.htm</span></li>
+            </ul>
         <li>To delete multiple files on the server: type [mdelete] + {a list of files/wildcard pattern}</li>
         <li>To upload a file to the server: type [put] + {file path}</li>
-        <li>E.g., <span class="code">put index.htm</span></li>
+            <ul>
+                <li>E.g., <span class="code">put index.htm</span></li>
+            </ul>
         <li>To upload multiple files to the server: type [mput] + {a list of files/wildcard pattern}</li>
         <li>To make directories: type [mkdir] + {folder name}</li>
-        <li>E.g. <span class="code">mkdir folder1</span></li>
+            <ul>
+                <li>E.g. <span class="code">mkdir folder1</span></li>
+            </ul>
         <li>To remove directories: type [rmdir] + {folder name}</li>
-        <li>E.g. <span class="code">rmdir folder1</span></li>
+            <ul>
+                <li>E.g. <span class="code">rmdir folder1</span></li>
+            </ul>
         <li>To see a list of commands available: type [?]</li>
         <li>To exit FTP: type [bye]</li>
     </ul>
@@ -917,15 +991,25 @@
         <li>Encrypted</li>
         <li>Just required to open one port to the outside world</li>
         <li>SFTP routes through one port (default 22)</li>
-        <li>Easier to control</li>
-        <li>More resilient to different network environments</li>
+            <ul>
+                <li>Easier to control</li>
+                <li>More resilient to different network environments</li>
+            </ul>
         <li>To connect:</li>
-        <li>Type [sftp] + {username} + [@] + {domain}</li>
-        <li>E.g., <span class="code">sftp dark.teal.coder@example.com</span></li>
-        <li>To specify a port: type [sftp] + [-oPort=] + {option} + {username} + [@] + {domain}</li>
-        <li>E.g., <span class="code">sftp -oPort=2222 dark.teal.coder@example.com</span></li>
-        <li>In case @ sign in the username: type [sftp] + [-oUser=] + {username} + [@] + {domain in the username} + {server’s domain}</li>
-        <li>E.g., <span class="code">sftp -oUser=dark.teal.coder@webhost.com example.com</span></li>
+            <ul>
+                <li>Type [sftp] + {username} + [@] + {domain}</li>
+                    <ul>
+                        <li>E.g., <span class="code">sftp dark.teal.coder@example.com</span></li>
+                    </ul>
+                <li>To specify a port: type [sftp] + [-oPort=] + {option} + {username} + [@] + {domain}</li>
+                    <ul>
+                        <li>E.g., <span class="code">sftp -oPort=2222 dark.teal.coder@example.com</span></li>
+                    </ul>
+                <li>In case @ sign in the username: type [sftp] + [-oUser=] + {username} + [@] + {domain in the username} + {server’s domain}</li>
+                    <ul>
+                        <li>E.g., <span class="code">sftp -oUser=dark.teal.coder@webhost.com example.com</span></li>
+                    </ul>
+            </ul>
     </ul>
     <br>
     <h2>The Practices of High-Performing Employees</h2>
