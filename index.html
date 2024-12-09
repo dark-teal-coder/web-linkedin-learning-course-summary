@@ -806,7 +806,7 @@
     Home folder: landing place in the file system after login
     Able to be shared on a web host
     
-    Video: Connecting to An FTP Server Using Client Software
+    Video: Connecting to an FTP Server Using Client Software
     
     To connect to an FTP server:
     Client software/client
@@ -826,7 +826,7 @@
     [Toggle directory comparison] feature in the toolbar: compare files between local and remote folders
     To disconnect: click [Cancels the current operation] button in the toolbar
     
-    Video: Connecting to An FTP Server with A Web Browser
+    Video: Connecting to an FTP Server with A Web Browser
     
     FTP server’s URL into the browser to see a representation of the folders on the server
     Able to download
@@ -843,7 +843,7 @@
     To add a network location: click [Add a network location] in the ribbon > click [Next] > choose [Choose a custom network location] > click [Next] > enter {FTP connection URL} into [Internet or network address] > uncheck [Log on anonymously] > enter [User name] > click [Next] > enter [Type a name for this network location] > click [Next] > check [Open this network location when I click Finish] > click [Finish] > enter credentials > click [Log On]
     Handy shortcut to the FTP server at [This PC] under [Network locations]
     
-    Video: Connecting to An FTP Server from Linux
+    Video: Connecting to an FTP Server from Linux
     
     File manager of a Linux GUI is able to connect to FTP servers
     Gnome environment: click [Files] on menu > choose [Connect to Server] > enter FTP path into [Server Address] > choose [Registered User] > enter credentials > click [Connect]
@@ -857,56 +857,56 @@
     Send commands to FTP application when the prompt changes to [ftp>]
     Enter credentials for authentication
     To see what is in the directory: type [ls] or [dir]
-    E.g., drwxr-xr-x        1 ldcsites         ldcsites        4096        Apr 25        2012        _css
+    E.g., <span class="code">drwxr-xr-x        1 ldcsites         ldcsites        4096        Apr 25        2012        _css</span>
     Output 1st column:
-    E.g., drwxr-xr-x
+    E.g., <span class="code">drwxr-xr-x</span>
     1st character: directory/file
-    [d] for directory
-    [-] for file
+    [<span class="code">d</span>] for directory
+    [<span class="code">-</span>] for file
     Next 3 characters: file permissions for the user
-    [r] for read
-    [w] for write
-    [x] for execute
+    [<span class="code">r</span>] for read
+    [<span class="code">w</span>] for write
+    [<span class="code">x</span>] for execute
     Next 3 characters: file permissions for the group 
-    [r] for read
-    [w] for write
-    [x] for execute
+    [<span class="code">r</span>] for read
+    [<span class="code">w</span>] for write
+    [<span class="code">x</span>] for execute
     Next 3 characters: file permissions for everyone
-    [r] for read
-    [w] for write
-    [x] for execute
+    [<span class="code">r</span>] for read
+    [<span class="code">w</span>] for write
+    [<span class="code">x</span>] for execute
     Output 2nd & 3rd columns: user & group for each file
-    E.g., ldcsites        ldcsites
+    E.g., <span class="code">ldcsites        ldcsites</span>
     Output 4th column: size
-    E.g., 4096
+    E.g., <span class="code">4096</span>
     Output 5th column: modification date
-    E.g., Apr 25        2012
+    E.g., <span class="code">Apr 25        2012</span>
     Output last column: file name
-    E.g., _css
+    E.g., <span class="code">_css</span>
     To change directory: type [cd] + {directory name}
-    E.g., cd folder_name
+    E.g., <span class="code">cd folder_name</span>
     To print current working directory: type [pwd]
     To go back a level: type [cd] + [..]
-    i.e., cd ..
+    i.e., <span class="code">cd ..</span>
     To download a file to your working directory: type [get] + {file name}
-    E.g., get index.htm
+    E.g., <span class="code">get index.htm</span>
     To change the local directory: type [lcd] + {path}
     To download multiple files to your working directory: type [mget] + {a list of files/wildcard pattern}
-    E.g., mget *
+    E.g., <span class="code">mget *</span>
     Choose which file to download one by one or use [prompt] command to toggle the interactive mode off to get all the files at once
     Unable to download folders
     To jump out of the FTP command line: type [!]
     To go back to FTP: type [exit]
     To delete a file on the server: type [delete] + {file path}
-    E.g., delete index.htm
+    E.g., <span class="code">delete index.htm</span>
     To delete multiple files on the server: type [mdelete] + {a list of files/wildcard pattern}
     To upload a file to the server: type [put] + {file path}
-    E.g., put index.htm
+    E.g., <span class="code">put index.htm</span>
     To upload multiple files to the server: type [mput] + {a list of files/wildcard pattern}
     To make directories: type [mkdir] + {folder name}
-    E.g. mkdir folder1
+    E.g. <span class="code">mkdir folder1</span>
     To remove directories: type [rmdir] + {folder name}
-    E.g. rmdir folder1
+    E.g. <span class="code">rmdir folder1</span>
     To see a list of commands available: type [?]
     To exit FTP: type [bye]
     
@@ -921,11 +921,11 @@
     More resilient to different network environments
     To connect:
     Type [sftp] + {username} + [@] + {domain}
-    E.g., sftp roxy@example.com
+    E.g., <span class="code">sftp dark.teal.coder@example.com</span>
     To specify a port: type [sftp] + [-oPort=] + {option} + {username} + [@] + {domain}
-    E.g., sftp -oPort=2222 dark.teal.coder@example.com
+    E.g., <span class="code">sftp -oPort=2222 dark.teal.coder@example.com</span>
     In case @ sign in the username: type [sftp] + [-oUser=] + {username} + [@] + {domain in the username} + {server’s domain}
-    E.g., sftp -oUser=dark.teal.coder@webhost.com example.com
+    E.g., <span class="code">sftp -oUser=dark.teal.coder@webhost.com example.com</span>
     <br>
     <h2>The Practices of High-Performing Employees</h2>
     <br>
