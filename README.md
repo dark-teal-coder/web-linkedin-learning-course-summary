@@ -33,6 +33,7 @@ This project is my first attempt to turn a repository into a website using GitHu
 ### References 
 
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+- [How to Import the Math Equations from LaTex to Your Website (HTML)](https://mecharithm.com/learning/lesson/latex-to-html-2)
 
 &nbsp;
 
