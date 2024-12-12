@@ -37,4 +37,4 @@ This project is my first attempt to turn a repository into a website using GitHu
 
 &nbsp;
 
-*1st Completion Date: Xxx 00, 202x*&emsp;
+*1st Completion Date: Dec 12, 2024*&emsp;
