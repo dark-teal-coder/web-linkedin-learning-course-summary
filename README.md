@@ -1,6 +1,6 @@
 <!-- README file for GitHub Pages website-->
 
-# Linkedin Learning Course Summary Website
+# LinkedIn Learning Course Summary Website
 
 ## Metadata
 
@@ -10,7 +10,7 @@
 
 ## Project
 
-- **Title**: *Linkedin Learning Course Summary Website*
+- **Title**: *LinkedIn Learning Course Summary Website*
 - **Difficulty**:
   - [x] Beginner
   - [ ] Intermediate
